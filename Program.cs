@@ -1,7 +1,6 @@
-﻿var converter = new RomanApp.RomanConverter();
+﻿using RomanApp.Core;
 
-var number = 456;
+var converter = new RomanConverter();
 
-var result = converter.Generate(number);
+Console.WriteLine("456 = " + converter.Generate(456));
 
-Console.WriteLine(result);
