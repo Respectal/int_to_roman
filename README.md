@@ -1,1 +1,2 @@
-# roman_task
+# Roman numerals generator
+## Algorithm
